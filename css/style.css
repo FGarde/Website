@@ -1,3 +1,6 @@
+body{
+    background-color: #787878;
+}
 div#content div{
     display: inline-block;
     width: 48%;
@@ -13,13 +16,36 @@ div#content div.right{
     vertical-align: top;
 
 }
+
+div#title h1{
+    position: relative;
+    text-align: center;
+    color: aqua;
+}
+
+div#title h3{
+    position: relative;
+    text-align: center;
+    color: aqua;
+}
+
+#photo .back{
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+}
+
 header{
     color: white;
-    background-color: #2310d5;
+    background-color: #000000;
 }
-nav.menu_nav ul li.button {
+nav.menu_nav ul li.button{
     display: inline-block;
     list-style-type: none;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
 }
 
 nav.menu_nav ul li.button a{
@@ -35,6 +61,3 @@ nav.menu_nav ul li.button:hover a {
     color: rgb(255, 0, 0);
 }
 
-p.welcome {
-    color: rgb(237, 47, 145);
-}
