@@ -61,3 +61,18 @@ nav.menu_nav ul li.button:hover a {
     color: rgb(255, 0, 0);
 }
 
+#site-footer div.copyright {
+    text-align: center;
+    font-style: italic;
+    color:rgb(71, 71, 71);
+    font-size: 12px;
+}
+
+#site-footer li{
+    display: inline-block;
+    list-style: none;
+}
+#site-footer ul{
+    display: block;
+    text-align: center;
+}
