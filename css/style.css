@@ -35,6 +35,18 @@ nav.menu_nav ul li.button:hover a {
     margin-top: 100px;
 }
 
+#photo p{
+    font-size: 10px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-bottom: 75px;
+}
+
+div#about_me p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
 #site-footer {
     text-align: center;
 
