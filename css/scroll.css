@@ -8,6 +8,7 @@
     background: rgb(30,40,50);
 }
 .slider{
+    margin: auto;
     width: 800px;
     height: 500px;
     border-radius: 20px;
