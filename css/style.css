@@ -43,13 +43,13 @@ header{
     color: white;
     background-color: #000000;
 }
+nav.menu_nav {
+    text-align: center;
+}
 nav.menu_nav ul li.button{
     display: inline-block;
     list-style-type: none;
-    margin: auto;
     text-align: center;
-    position: relative;
-    left: 50%;
 }
 
 nav.menu_nav ul li.button a{
