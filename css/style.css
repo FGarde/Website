@@ -1,9 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(30, 40, 50);
 }
 
 header{
+    padding: 0 0 0;
     position: sticky;
+    z-index: 1;
     top: 0;
     color: white;
     background-color: #000000;
