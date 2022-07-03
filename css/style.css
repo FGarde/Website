@@ -11,10 +11,14 @@ header{
 nav.menu_nav {
     text-align: center;
 }
+
+nav.menu_nav ul {
+    margin: 0;
+    padding: 0 0 0;
+}
 nav.menu_nav ul li.button{
     display: inline-block;
     list-style-type: none;
-    text-align: center;
 }
 
 nav.menu_nav ul li.button a{
@@ -38,7 +42,7 @@ nav.menu_nav ul li.button:hover a {
 }
 
 #photo p{
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     color:rgb(255, 255, 255);
     margin-bottom: 75px;
@@ -49,19 +53,23 @@ div#about_me p{
     color: rgb(255, 255, 255);
 }
 
-#site-footer {
-    text-align: center;
-
-}
-
 #site-footer div.copyright {
     text-align: center;
     color:rgb(71, 71, 71);
     font-size: 12px;
-
 }
 
+#site-footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#site-footer ul{
+    margin: 0;
+    padding: 0 0 0;
+    list-style: none;
+}
 #site-footer li{
     display: inline-block;
-    list-style: none;
+    margin-bottom: 25px;
 }
